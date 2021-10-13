@@ -7,7 +7,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-You need to have already installed python and virtual enviroment activated
+You need to have already installed node and npm
   
 ### Installation
 
