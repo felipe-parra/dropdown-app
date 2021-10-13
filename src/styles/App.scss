@@ -1,0 +1,124 @@
+:root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+  width: 100vw;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+h1 {
+  margin: 0;
+  color: #f3f3f3;
+}
+form {
+  background: #333333;
+  border-radius: 0.3rem;
+  // margin: 0 2rem 0;
+  display: flex;
+  // padding: 1rem 0.5rem;
+  padding-bottom: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // max-width: 760px;
+  width: 100%;
+}
+span {
+  margin: 0 0.5rem;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f3f3f3;
+}
+
+button {
+  background-color: #90d113;
+  color: #ffffff;
+  height: 45px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+button:hover {
+  background-color: #ffffff;
+  color: #90d113;
+}
+.container__dropdowns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown {
+  max-width: 450px;
+  padding: 0.2rem;
+  label {
+    color: #f3f3f3;
+    text-transform: capitalize;
+  }
+  select {
+    background-color: #f3f3f3;
+    color: #666666;
+    border-radius: 0.4rem;
+    height: 45px;
+    width: 7rem;
+    padding: 0.5rem;
+  }
+}
+
+table {
+  margin: 0.5rem 0.4rem;
+
+  max-width: 100%;
+  font-size: 0.7rem;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  thead {
+    border: none;
+    background-color: #90d113;
+    color: #f3f3f3;
+  }
+  tr {
+    border: 1px solid black;
+  }
+  td {
+    border-top: 1px solid black;
+  }
+}
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  .d-flex {
+    padding: 3px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    div {
+      padding: 3px;
+      text-transform: uppercase;
+    }
+  }
+  .grid__header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    // padding: 0.2rem;
+    // margin: 0 auto;
+    width: 100%;
+    div {
+      padding: 3px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+}
